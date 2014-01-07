@@ -1,0 +1,1 @@
+this is my basic fire.app's ERB Template, you can use use Fire.app watch the project, thanks.
