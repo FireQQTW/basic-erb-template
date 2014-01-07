@@ -1,0 +1,23 @@
+/* ===== 平版(ALL) ===== */
+@media only screen and (max-width : 1024px) {  // 平版(ALL)
+	
+	/*------------------------------------*\
+	    $icon Sprite---tablet
+	\*------------------------------------*/
+
+	// Png SPRITE 開始
+	// $tablet-icon-sprite-dimensions: true;
+	// @import "tablet/tablet-icon/*.png";
+	// @include all-tablet-icon-sprites;
+	//  Png SPRITE 結束
+}
+
+/* ===== 平版(直) ===== */
+@media only screen and (max-width : 1024px) and (orientation:portrait) { // 平版(直)
+	.page {	
+	margin: 0 auto;
+	@include WH($basicWIdth_Tablet, auto);
+	}
+
+	/* ===== other device structure display:none ===== */
+}

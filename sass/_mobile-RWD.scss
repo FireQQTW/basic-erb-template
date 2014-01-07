@@ -1,0 +1,30 @@
+/* ===== 手機(ALL)===== */
+@media screen and (min-width : 320px) and (max-width : 767px) { // 手機(ALL)
+	.page {	
+	margin: 0 auto;
+	@include WH($basicWIdth_Mobile, auto);
+	}
+	/* ===== other device structure display:none ===== */
+	
+}
+
+/* ===== 手機(直) ===== */
+@media screen and (min-width : 320px) and (max-width : 767px) and (orientation:portrait) { // 手機(直)
+
+}
+
+/* ===== 手機(橫) ===== */
+@media screen and (min-width : 320px) and (max-width : 767px) and (orientation:landscape) { // 手機(橫)
+	
+}
+
+/* ===== iphone 4S (all) ===== */
+@media screen and (min-width : 320px) and (max-width : 480px) {
+	
+}
+
+
+/* ===== iphone 4S (橫) ===== */
+@media screen and (min-width : 320px) and (max-width : 480px) and (orientation:landscape) {
+	
+}

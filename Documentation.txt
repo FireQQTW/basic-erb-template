@@ -1,0 +1,20 @@
+/*------------------------------------*\
+    Documentation
+\*------------------------------------*/
+
+This site is created with fire.app, So it will be produced by the structure of erb templates, 
+
+you can refer to Fire.app the "Template Helpers" to make changes.
+
+
+
+
+/*------------------------------------*\
+    Special Template
+\*------------------------------------*/
+
+ex: index.html.erb
+
+basic   template-----_layout.html.erb
+set special template-----index.html.layout
+special template-----xxxxxxxxx.html.erb

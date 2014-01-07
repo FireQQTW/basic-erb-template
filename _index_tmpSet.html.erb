@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+	<%= render :partial => "heard" %>
+	<%# 呼叫自訂js or css %>
+	<% if content_for? :custom_head %>
+		<%= yield :custom_head %>
+	<% end %>
+</head>
+<body>
+	<div class="page">
+			<%# 呼叫heard %>
+			<% if content_for? :hearder %>
+				<%= yield :hearder %>
+			<% end %>
+		<div class="content-warp">			
+			<%# 主要內容 %>
+			<p>首頁特殊版面</p>
+			<%= yield %>
+		</div>
+		<div class="footer-warp">
+			<%# footer內容 %>
+			<%= render :partial => "footer" %>
+		</div>
+	</div>
+	<%# 呼叫自訂js or css (底部) %>
+	<% if content_for? :custom_head_bottom %>
+		<%= yield :custom_head_bottom %>
+	<% end %>
+</body>
+</html>
