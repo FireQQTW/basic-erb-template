@@ -1,12 +1,10 @@
 # Require any additional compass plugins here.
 
 # Set this to the root of your project when deployed:
-# ENV["RACK_ENV"] = "release"
-ENV["RACK_ENV"] = "production"
 if ENV["RACK_ENV"] == "production"
-  http_path = "/" # the http_path in your hosting
+  http_path = "/demo/" # the http_path in your hosting
 else
-  http_path = "/demo/"
+  http_path = "/" # this is localhost's path.
 end
 css_dir = "css"
 sass_dir = "sass"
