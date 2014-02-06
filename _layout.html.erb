@@ -14,10 +14,8 @@
 <body>
 	<div class="page">
 			<%# 呼叫heard %>
-			<% if content_for? :hearder %>
-				<%= yield :hearder %>
-			<% end %>
-		<div class="content-warp">			
+			<%= render :partial => "hearder" %>
+		<div class="content-warp">
 			<%# 主要內容 %>
 			<%= yield %>
 		</div>
