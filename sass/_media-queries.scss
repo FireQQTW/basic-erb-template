@@ -17,8 +17,11 @@
 //
 // Mixins:
 //   @ min-screen(width)                      // shortcut for @media screen and (min-width ...)
+//   @ min-screen(width, orientation)         // shortcut for @media screen and (min-width ...) and (orientation ....)
 //   @ max-screen(width)                      // shortcut for @media screen and (max-width ...)
+//   @ max-screen(width, orientation)         // shortcut for @media screen and (max-width ...) and (orientation ....)
 //   @ screen(min-width, max-width)           // shortcut for @media screen and (min-width ...) and (max-width ...)
+//   @ screen(min-width, max-width, orientation)           // shortcut for @media screen and (min-width ...) and (max-width ...) and (orientation ....)
 //   ---
 //   @ min-screen-height(height)              // shortcut for @media screen and (min-height ...)
 //   @ max-screen-height(height)              // shortcut for @media screen and (max-height ...)
@@ -52,27 +55,52 @@
 // --- screen ----------------------------------------------------------------------------------------------------------
 // ---------------------------------------------------------------------------------------------------------------------
 
-@mixin screen($resMin, $resMax)
+
+@mixin screen($resMin, $resMax, $orientation: false)
 {
-  @media screen and (min-width: $resMin) and (max-width: $resMax)
-  {
-    @content;
+  @if $orientation == false {
+    @media screen and (min-width: $resMin) and (max-width: $resMax)
+    {
+      @content;
+    }
+  }
+  @else {
+    @media screen and (min-width: $resMin) and (max-width: $resMax) and (orientation: $orientation)
+    {
+      @content;
+    }
   }
 }
 
-@mixin max-screen($res)
+@mixin max-screen($res, $orientation: false)
 {
-  @media screen and (max-width: $res)
-  {
-    @content;
+  @if $orientation == false {
+    @media screen and (max-width: $res)
+    {
+      @content;
+    }
+  }
+  @else {
+    @media screen and (max-width: $res) and (orientation: $orientation)
+    {
+      @content;
+    }
   }
 }
 
-@mixin min-screen($res)
+@mixin min-screen($res, $orientation: false)
 {
-  @media screen and (min-width: $res)
-  {
-    @content;
+  @if $orientation == false {
+    @media screen and (min-width: $res)
+    {
+      @content;
+    }
+  }
+  @else {
+    @media screen and (min-width: $res) and (orientation: $orientation)
+    {
+      @content;
+    }
   }
 }
 
