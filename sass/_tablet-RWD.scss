@@ -1,6 +1,5 @@
 /* ===== 平版(ALL) ===== */
-@media only screen and (max-width : 1024px) {  // 平版(ALL)
-	
+@include max-screen(1024px) { // 平版(ALL)
 	/*------------------------------------*\
 	    $icon Sprite---tablet
 	\*------------------------------------*/
@@ -13,7 +12,7 @@
 }
 
 /* ===== 平版(直) ===== */
-@media only screen and (max-width : 1024px) and (orientation:portrait) { // 平版(直)
+@include max-screen(1024, portrait) { // 平板(直)
 	.page {	
 	margin: 0 auto;
 	@include WH($basicWIdth_Tablet, auto);
