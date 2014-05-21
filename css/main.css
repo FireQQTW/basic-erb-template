@@ -1,129 +1,22 @@
-/*------------------------------------*\
-    $MAIN CSS
-\*------------------------------------*/
-/**
- * 
- * @authors Your Name (you@example.org)
- * @date    2013-11-19 14:09:42
- * @version $Id$
- *
- * p a img span h1~h2...................行內元素
- * VARIABLE..................................變數
- * TABLE STYLE............................表格樣式
- * UL STYLE....................................列表樣式
- * STRUCTURE..............................框架
- * TABLET.......................................平版(ALL)
- * MOBILE.......................................手機(ALL)
- * IE..................................................針對IE用的樣式
- */
-/* p */
-.text--basic {
-  line-height: 1.5em;
-  font-size: 90%;
-}
-
-/* a */
-.btn--basic {
-  display: block;
-  text-indent: -9999em;
-}
-
-.other-device-btn--basic {
-  display: none;
-  text-indent: -9999em;
-}
-
-/* h1~h6 basic */
-.content-title--basic {
-  padding-left: 1.5em;
-  margin-bottom: 0.5em;
-  line-height: 3em;
-  color: #ffe6bf;
-}
-
-/* span */
-/* input */
-/*------------------------------------*\
-    $STRUCTURE
-\*------------------------------------*/
 .page {
   width: 64em;
   height: auto;
 }
 
-/* ===== other device structure display:none ===== */
-/*------------------------------------*\
-    $TABLE STYLE
-\*------------------------------------*/
-/* basic-table */
-.table--basic {
-  width: 100%;
-  height: auto;
-  line-height: 2em;
-  text-align: center;
-}
-
-/*------------------------------------*\
-    $UL STYLE
-\*------------------------------------*/
-/* ========== main-menu ============= */
-/* ul */
-.ul--basic {
-  width: 100%;
-  height: auto;
-}
-
-/*------------------------------------*\
-    $icon Sprite
-\*------------------------------------*/
-/*------------------------------------*\
-    $TABLET DEVICE
-\*------------------------------------*/
-/* ===== 平版(ALL) ===== */
-@media only screen and (max-width: 1024px) {
-  /*------------------------------------*\
-      $icon Sprite---tablet
-  \*------------------------------------*/
-}
-/* ===== 平版(直) ===== */
-@media only screen and (max-width: 1024px) and (orientation: portrait) {
+/* ===== Tablet(ALL) ===== */
+/* ===== Table(portrait) | ===== */
+@media screen and (max-width: 1024) and (orientation: portrait) {
   .page {
     margin: 0 auto;
     width: 100%;
     height: auto;
   }
-
-  /* ===== other device structure display:none ===== */
 }
-/*------------------------------------*\
-    $MOBILE DEVICE
-\*------------------------------------*/
-/* ===== 手機(ALL)===== */
+/* ===== Mobile(ALL)===== */
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .page {
     margin: 0 auto;
     width: 100%;
     height: auto;
   }
-
-  /* ===== other device structure display:none ===== */
 }
-/* ===== 手機(直) ===== */
-/* ===== 手機(橫) ===== */
-/* ===== iphone 4S (all) ===== */
-/* ===== iphone 4S (橫) ===== */
-/*------------------------------------*\
-    $FUCK ALL IE
-\*------------------------------------*/
-/*------------------------------------*\
-    $ lte IE 8
-\*------------------------------------*/
-/*------------------------------------*\
-    $ lte IE 7
-\*------------------------------------*/
-/*------------------------------------*\
-    $IE 8
-\*------------------------------------*/
-/*------------------------------------*\
-    $IE 7
-\*------------------------------------*/

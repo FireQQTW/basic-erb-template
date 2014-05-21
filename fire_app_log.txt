@@ -1,2 +1,91 @@
 2014-02-06 10:22:40 overwrite css/ie.css 
 2014-02-06 10:22:41 overwrite css/main.css 
+2014-05-20 16:59:21 identical css/ie.css 
+2014-05-20 16:59:26 overwrite css/main.css 
+2014-05-20 17:01:00 overwrite css/main.css 
+2014-05-20 17:04:59     error sass/main.scss (Line 38: Undefined variable: "$basicWIdth_Desktop".)
+2014-05-20 17:04:59 overwrite css/main.css 
+2014-05-20 17:05:14     error sass/main.scss (Line 18 of sass/_tablet-RWD.scss: Undefined variable: "$basicWIdth_Tablet".)
+2014-05-20 17:05:14 overwrite css/main.css 
+2014-05-20 17:05:32     error sass/main.scss (Line 5 of sass/_mobile-RWD.scss: Undefined variable: "$basicWIdth_Mobile".)
+2014-05-20 17:05:32 overwrite css/main.css 
+2014-05-20 17:05:41 overwrite css/main.css 
+2014-05-20 17:09:24 overwrite css/ie.css 
+2014-05-20 17:09:24 overwrite css/main.css 
+2014-05-20 17:10:26 identical css/ie.css 
+2014-05-20 17:10:27 identical css/main.css 
+2014-05-20 17:11:20     error sass/main.scss (Line 38: Undefined mixin 'WH'.)
+2014-05-20 17:11:20 overwrite css/main.css 
+2014-05-20 17:11:22     error sass/main.scss (Line 38: Undefined mixin 'WH'.)
+2014-05-20 17:11:22 identical css/main.css 
+2014-05-20 17:11:38     error sass/main.scss (Line 38: Undefined mixin 'WH'.)
+2014-05-20 17:11:38 identical css/main.css 
+2014-05-20 17:12:28     error sass/main.scss (Line 38: Undefined mixin 'WH'.)
+2014-05-20 17:12:28 identical css/main.css 
+2014-05-20 17:15:20     error sass/main.scss (Line 38: Undefined mixin 'WH'.)
+2014-05-20 17:15:20 identical css/main.css 
+2014-05-20 17:17:17     error sass/main.scss (Line 38: Undefined mixin 'WH'.)
+2014-05-20 17:17:17 identical css/main.css 
+2014-05-20 17:21:09     error sass/main.scss (Line 38: Undefined mixin 'WH'.)
+2014-05-20 17:21:09 identical css/main.css 
+2014-05-20 17:23:31     error sass/main.scss (Line 38: Undefined mixin 'WH'.)
+2014-05-20 17:23:31 identical css/main.css 
+2014-05-20 17:23:58     error sass/main.scss (Line 38: Undefined mixin 'WH'.)
+2014-05-20 17:23:58 identical css/main.css 
+2014-05-20 17:25:25     error sass/main.scss (Line 38: Undefined mixin 'WH'.)
+2014-05-20 17:25:25 identical css/main.css 
+2014-05-20 17:26:04     error sass/main.scss (Line 38: Undefined mixin 'WH'.)
+2014-05-20 17:26:04 identical css/main.css 
+2014-05-20 17:26:25     error sass/main.scss (Line 38: Undefined mixin 'WH'.)
+2014-05-20 17:26:25 identical css/main.css 
+2014-05-20 17:26:36     error sass/main.scss (Line 5 of sass/_mobile-RWD.scss: Undefined mixin 'WH'.)
+2014-05-20 17:26:36 overwrite css/main.css 
+2014-05-20 17:26:41     error sass/main.scss (Line 5 of sass/_mobile-RWD.scss: Undefined mixin 'WH'.)
+2014-05-20 17:26:41 identical css/main.css 
+2014-05-20 17:26:48     error sass/main.scss (Line 5 of sass/_mobile-RWD.scss: Undefined mixin 'WH'.)
+2014-05-20 17:26:48 identical css/main.css 
+2014-05-20 17:26:59 overwrite css/main.css 
+2014-05-20 17:27:04 identical css/main.css 
+2014-05-20 17:27:41 identical css/main.css 
+2014-05-20 17:29:16 overwrite css/main.css 
+2014-05-20 17:29:21 overwrite css/main.css 
+2014-05-20 17:29:29 overwrite css/main.css 
+2014-05-20 17:29:38 overwrite css/main.css 
+2014-05-20 17:29:43 overwrite css/main.css 
+2014-05-20 17:46:17 identical css/main.css 
+2014-05-20 17:46:37 identical css/main.css 
+2014-05-20 17:46:54 identical css/main.css 
+2014-05-20 17:47:09 identical css/main.css 
+2014-05-20 17:53:46 identical css/main.css 
+2014-05-20 17:54:14     error sass/main.scss (Line 41: Invalid CSS after "  @import ": expected file to import (string or url()), was "clearFix;")
+2014-05-20 17:54:14 overwrite css/main.css 
+2014-05-20 17:54:19     error sass/main.scss (Line 41: Invalid CSS after "  @import ": expected file to import (string or url()), was "clearfix;")
+2014-05-20 17:54:19 overwrite css/main.css 
+2014-05-20 17:54:58     error sass/main.scss (Line 41: Invalid CSS after "  @import ": expected file to import (string or url()), was "clearfix;")
+2014-05-20 17:54:58 identical css/main.css 
+2014-05-20 17:55:20     error sass/main.scss (Line 41: Invalid CSS after "  @import ": expected file to import (string or url()), was "clearfix();")
+2014-05-20 17:55:20 overwrite css/main.css 
+2014-05-20 17:56:06 overwrite css/main.css 
+2014-05-20 17:56:57 overwrite css/main.css 
+2014-05-20 17:57:49 identical css/main.css 
+2014-05-20 17:58:15 identical css/main.css 
+2014-05-20 18:02:04 identical css/main.css 
+2014-05-20 18:05:19 identical css/main.css 
+2014-05-20 18:05:40 identical css/main.css 
+2014-05-20 18:05:48 identical css/main.css 
+2014-05-20 18:18:56 identical css/main.css 
+2014-05-20 18:41:01 identical css/main.css 
+2014-05-20 18:43:45 identical css/main.css 
+2014-05-20 20:28:22 identical css/main.css 
+2014-05-21 10:24:56     error sass/main.scss (Line 22 of sass/_ie.scss: ".ie8" failed to @extend "%lte-ie8".
+The selector "%lte-ie8" was not found.
+Use "@extend %lte-ie8 !optional" if the extend should be able to fail.
+)
+2014-05-21 10:24:56 overwrite css/main.css 
+2014-05-21 10:25:07     error sass/main.scss (Line 22 of sass/_ie.scss: ".ie8" failed to @extend "%lte-ie8".
+The selector "%lte-ie8" was not found.
+Use "@extend %lte-ie8 !optional" if the extend should be able to fail.
+)
+2014-05-21 10:25:07 overwrite css/main.css 
+2014-05-21 10:25:19 overwrite css/main.css 
+2014-05-21 10:25:44 overwrite css/main.css 
