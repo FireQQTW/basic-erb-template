@@ -1,25 +1,26 @@
-/* ===== 手機(ALL)===== */
-@include screen(320px, 767px) { // 手機(ALL)
-	.page {
-	margin: 0 auto;
-	@include WH($basicWIdth_Mobile, auto);
-	}
-	/* ===== other device structure display:none ===== */
+/* ===== Mobile(ALL)===== */
+@include screen(320px, 767px) { // Mobile(ALL)
+  .page {
+    margin: 0 auto;
+    @include wh($basic-width-mobile, auto);
+  }
+
+//	/* ===== other device structure display:none ===== */
 }
 
-/* ===== 手機(直) ===== */
-@include screen(320px, 767px, portrait) { // 手機(直)
+// /* ===== Mobile(portrait) | ===== */
+@include screen(320px, 767px, portrait) { // Mobile(portrait)
 }
 
-/* ===== 手機(橫) ===== */
-@include screen(320px, 767px, landscape) { // 手機(橫)
+// /* ===== Mobile(landscape) - ===== */
+@include screen(320px, 767px, landscape) { // Mobile(landscape)
 }
 
-/* ===== iphone 4S (all) ===== */
+// /* ===== iphone 4S (all) ===== */
 @include iphone4 {
 }
 
 
-/* ===== iphone 4S (橫) ===== */
+// /* ===== iphone 4S (landscape) ===== */
 @include iphone4(landscape) {
 }

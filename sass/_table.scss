@@ -5,11 +5,11 @@
 
 // ------------ example ----------------
 
-/* basic-table */
-.table--basic {
-	@include WH(100%, auto);
-	line-height: 2em;
-	text-align: center;
+// /* basic-table */
+%table--basic {
+  @include wh(100%, auto);
+  line-height: 2em;
+  text-align: center;
 }
 
 

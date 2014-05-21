@@ -1,22 +1,22 @@
-/* ===== 平版(ALL) ===== */
-@include max-screen(1024px) { // 平版(ALL)
-	/*------------------------------------*\
-	    $icon Sprite---tablet
-	\*------------------------------------*/
+/* ===== Tablet(ALL) ===== */
+@include max-screen(1024px) { // Table(ALL)
+//	/*------------------------------------*\
+//	    $icon Sprite---tablet
+//	\*------------------------------------*/
 
-	// Png SPRITE 開始
+	// Png SPRITE Start
 	// $tablet-icon-sprite-dimensions: true;
 	// @import "tablet/tablet-icon/*.png";
 	// @include all-tablet-icon-sprites;
-	//  Png SPRITE 結束
+	//  Png SPRITE End
 }
 
-/* ===== 平版(直) ===== */
-@include max-screen(1024, portrait) { // 平板(直)
-	.page {	
-	margin: 0 auto;
-	@include WH($basicWIdth_Tablet, auto);
+/* ===== Table(portrait) | ===== */
+@include max-screen(1024, portrait) { // Table(portrait)
+  .page {	
+    margin: 0 auto;
+    @include wh($basic-width-tablet, auto);
 	}
 
-	/* ===== other device structure display:none ===== */
+//	/* ===== other device structure display:none ===== */
 }

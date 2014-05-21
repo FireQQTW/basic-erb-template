@@ -2,10 +2,10 @@
 //     $p
 // \*------------------------------------*/
 
-/* p */
-.text--basic {
-	line-height: 1.5em;
-	font-size: 90%;
+// /* p */
+%text--basic {
+  font-size: 90%;
+  line-height: 1.5em;
 }
 
 
@@ -13,14 +13,15 @@
 //     $a
 // \*------------------------------------*/
 
-/* a */
-.btn--basic {
-	display: block;
-	text-indent: -9999em;
+// /* a */
+%btn--basic {
+  display: block;
+  text-indent: -9999em;
 }
-.other-device-btn--basic {
-	display: none;
-	text-indent: -9999em;
+
+%other-device-btn--basic {
+  display: none;
+  text-indent: -9999em;
 }
 
 
@@ -28,12 +29,12 @@
 //     $H1~H6
 // \*------------------------------------*/
 
-/* h1~h6 basic */
-.content-title--basic {
-	padding-left: 1.5em;
-	margin-bottom: 0.5em;
-	line-height: 3em;
-	color: #ffe6bf;
+// /* h1~h6 basic */
+%content-title--basic {
+  color: #ffe6bf;
+  line-height: 3em;
+  margin-bottom: .5em;
+  padding-left: 1.5em;
 }
 
 
@@ -41,14 +42,14 @@
 //     $span
 // \*------------------------------------*/
 
-/* span */
+// /* span */
 
 
 // /*------------------------------------*\
 //     $input
 // \*------------------------------------*/
 
-/* input */
+// /* input */
 
 
 // /*------------------------------------*\
